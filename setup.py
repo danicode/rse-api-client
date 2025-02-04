@@ -18,7 +18,7 @@ setup(
     description='A client for RSE API',
     author='Daniel Anzawa',
     author_email='danielanzawa@gmail.com',
-    url='https://github.com/tu_usuario/rse_api_client',
+    url='https://github.com/danicode/rse-api-client',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
