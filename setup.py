@@ -1,5 +1,8 @@
 from setuptools import setup, find_packages
 
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
 setup(
     name="rse_api_client",
     version="0.1",
@@ -16,6 +19,7 @@ setup(
     },
     include_package_data=True,
     description='A client for RSE API',
+    long_description=long_description,
     author='Daniel Anzawa',
     author_email='danielanzawa@gmail.com',
     url='https://github.com/danicode/rse-api-client',
