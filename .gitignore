@@ -1,0 +1,67 @@
+# Entornos virtuales
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.env/
+
+# Archivos de configuración de entorno
+.env
+
+# Archivos de caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Archivos de configuración de IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de configuración de sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de logs
+*.log
+
+# Archivos de configuración de paquetes
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+*.egg-info
+
+# Archivos temporales
+*.bak
+*.swp
+*.tmp
+
+# Archivos de configuración de cobertura de pruebas
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Archivos de configuración de herramientas de linting
+.mypy_cache/
+.pytype/
+.pyre/
+
+# Archivos JSON específicos del proyecto
+zowe.config.json
+zowe.schema.json
+
+# Certificados SSL
+mycert.crt
+mykey.key
