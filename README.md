@@ -2,6 +2,9 @@
 
 Este es un módulo para interactuar con la API RSE. Es una implementación básica para simplemente agregar el módulo, instalar las dependencias, agregar los valores correspondienetes en el archivo .env para luego hacer uso de la funcionalidad.
 
+## Visita el repositorio en Github
+Link al repo: [GitHub](https://github.com/danicode/rse-api-client)
+
 ## Instalación
 
 ### 1. Crear y Activar un Entorno Virtual
@@ -11,13 +14,19 @@ Primero, crea y activa un entorno virtual:
 ```bash
 # Crear un entorno virtual
 python -m venv venv
+```
 
+```bash
 # Activar el entorno virtual (Windows)
 venv\Scripts\activate
+```
 
+```bash
 # Activar el entorno virtual (MacOS/Linux)
 source venv/bin/activate
+```
 
+```bash
 # Desactivar el entorno virtual (Windows)
 deactivate
 ```

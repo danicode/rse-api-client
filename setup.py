@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setup(
     name="rse_api_client",
-    version="0.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=[
         "setuptools",
@@ -20,6 +20,7 @@ setup(
     include_package_data=True,
     description='A client for RSE API',
     long_description=long_description,
+    long_description_content_type="text/markdown",
     author='Daniel Anzawa',
     author_email='danielanzawa@gmail.com',
     url='https://github.com/danicode/rse-api-client',
